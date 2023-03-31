@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*  Glass Panel*/
+
 main{
     min-height: 100vh;
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
@@ -30,6 +32,8 @@ main{
     position: absolute;
     border-radius: 50%;
 }
+
+/* Circles */
 
 .circle1 {
     top:5%;
