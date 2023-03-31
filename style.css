@@ -64,12 +64,12 @@ main{
 /* Circles */
 
 .circle1 {
-    top:5%;
+    top:1%;
     right: 15%;
 }
 
 .circle2{
-    bottom: 5%;
+    bottom: 2%;
     left: 10%;
 }
 
@@ -115,18 +115,55 @@ main{
 }
 
 .pro img {
-    width: 40%;
+    width: 50%;
     position: absolute;
-    top: -15%;
+    top: -2%;
     right: 10%;
 }
 
 .pro h2 {
+    font-size: 1.5rem;
     font-weight: 600;
     width: 40%;
     color: white;
 }
 
+
+/*  Games section  */
 .games {
     flex:2;
+}
+
+.status {
+    margin-bottom: 3rem;
+}
+
+.status input {
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.8), rgba(255,255,255,0.3));
+    border: none;
+    padding: .1rem;
+    width: 50%;
+    border-radius: 2rem;
+}
+
+.games {
+    margin: 2rem;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to left top, rgba(255,255,255,.2), rgba(255,255,255,0.8));
+    border-radius: 10px;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,.2);
+}
+
+.progress {
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    width: 50%;
+    margin-top: 3%;
+    border-radius: 10px;
+    height: 20%;
 }
